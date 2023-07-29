@@ -1,0 +1,61 @@
+#Sidebar {
+    background-color: #2B2929;
+    display: flex;
+    flex-direction: column;
+    width: 55vh;
+    height: 100vh;
+
+}
+
+#Title {
+    color: white;
+    font-family: 'Doppio One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 7vh;
+}
+
+#connectstatment{
+    color: white;
+    font-family: 'Doppio One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4vh;
+    text-align: left;
+    padding-left: 5vh;
+}
+
+#startBTN {
+    width: 20vh;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #205EFF;
+    border: none;
+    border-radius: 10px;
+    width: 20vh;
+    height: 7vh;
+    font-size: 3vh;
+    transition-duration: 0.4s; 
+    font-family: 'Doppio One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+#startBTN:hover {
+    background-color: #99B6FF;
+    color: black;
+}
+
+#chatTitle {
+    margin-top: 10vh;
+    color: white;
+    font-size: 4vh;
+    font-family: 'Doppio One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#chatLogs {
+    background-color: white;
+    width: 45vh;
+    height: 38vh;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: none;
+}
